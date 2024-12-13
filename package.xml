@@ -6,10 +6,15 @@
   <description>ROS2 package to interface with a GRBL serial device</description>
   <maintainer email="evanflynn.msu@gmail.com">Evan Flynn</maintainer>
   <license>MIT</license>
+  <url type="website">https://flynneva.github.io/grbl_ros/</url>
 
   <depend>rclpy</depend>
   <depend>grbl_msgs</depend>
   <depend>std_msgs</depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>grbl_interfaces</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <doc_depend>serial</doc_depend>
 
   <build_depend>python3-serial</build_depend>
 
